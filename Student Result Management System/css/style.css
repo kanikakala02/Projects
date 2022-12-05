@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.logo img{
+    width: 25%;
+    border: 2px solid white;
+    border-radius:50px ;
+    margin: 8px 0;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.navlist{
+ display: flex;
+ /* justify-content: center; */
+  /* align-items:center;  */
+ background-color: black;
+}
+
+.navlist li{
+ list-style: none;
+ padding: 26px 30px;
+}
+
+.navlist li a{
+ text-decoration: none;
+ color: white;
+}
+
+.navlist li a:hover{
+ color: grey;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../images/geu2.webp');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstsection{
+    height: 100vh;
+}
+
+.boxmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+
+
+.textbig{
+ font-size: 50px;
+ padding-top: 55px;
+ padding-bottom: 2px;
+}
+
+.textmiddle{
+    font-size: 35px;
+    padding-bottom: 10px 0;
+}
+.textsmall{
+ padding: 28px 0;
+ font-size: 25px;
+ text-align:left ;
+}
+
+.buttons{
+ text-align: left;
+}
+.btn{
+    padding: 8px 20px;
+    /* margin: 3px 0; */
+    border: 1px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+
+.textsmall input{
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+#semester{
+    border-radius: 5px;
+    margin-bottom: 12px
+}
+#operation{
+    border-radius: 5px;
+    margin-bottom: 12px
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: rgb(167, 164, 164);
+}
+
+.burger{
+    display: none;
+   position: absolute;
+   cursor: pointer;
+   right: 5%;
+   top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+#alert
+{
+    text-align: center;
+}
+
+.op{
+ padding: 15px 0;
+ font-size: 15px;
+}
+
+.op input{
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+.disp{
+    color: white;
+    padding: 14px;
+    margin: auto;
+}
+.table{
+    border-collapse: collapse;
+}
+
+.table td,.table th{
+     padding: 12px 15px;
+     border: 1px solid white;
+     text-align: center;
+     font-size: 16px;
+     color: white;
+}
+
+.details{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+span{
+    position: relative;
+    right: 40px;
+    transform: translate(0,-50%);
+    top: 90%;
+    cursor:pointer;
+    padding-top: 50px;
+}
+
+.fa{
+    font-size: 5px;
+    color:black;
+}
+
+
+
+
+/*@media only screen and (max-width:767px){
+    .navlist{
+        flex-direction: column;
+        background-color: black;
+    }
+    .navbar{
+       background-color: black;
+       height: 350px;
+       transition: all 0.3s ease-out;
+       flex-direction: column;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .boxmain{
+        max-width: 100%;
+    }
+    .firsthalf{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        text-align: center;
+    }
+    .logo{
+        width: 25%;
+    }
+}
